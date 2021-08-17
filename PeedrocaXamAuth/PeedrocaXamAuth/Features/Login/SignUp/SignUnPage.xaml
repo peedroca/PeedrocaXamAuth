@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PeedrocaXamAuth.Features.Login.SignUp.SignUnPage">
+    <ContentPage.Content>
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
+            Margin="15"
+        >
+            <Label
+                FontAttributes="Bold"
+                TextColor="#000"
+            >
+                Registrar-se
+            </Label>
+
+            <Entry 
+                Placeholder="E-mail"
+                Text="{Binding Email}"
+            />
+
+            <Entry 
+                Placeholder="Senha"
+                Text="{Binding Password}"
+                IsPassword="true"
+            />
+
+            <Button
+                Text="Registrar"
+                Command="{Binding SignUpCommand}"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

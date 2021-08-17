@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "935505272588",
+    "project_id": "peedrocaxamauth",
+    "storage_bucket": "peedrocaxamauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935505272588:android:4a3b7a3319918ea91bf329",
+        "android_client_info": {
+          "package_name": "br.PeedrocaXamAuth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935505272588-m6s4mon8sm7qhshffjk1f6uq4a24953d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.PeedrocaXamAuth",
+            "certificate_hash": "816d1688bde4933b58bf22a25fbc4a654192ce4c"
+          }
+        },
+        {
+          "client_id": "935505272588-g4iu177167ucea5btmj9qjf0gj6h5ote.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3pEdRkS0ekbR4uqbhTX2kyNlgR2mGFgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935505272588-g4iu177167ucea5btmj9qjf0gj6h5ote.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
